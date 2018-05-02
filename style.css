@@ -1,0 +1,128 @@
+/*font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+  background-color: #E3E8EB;
+  color: rgb(20, 20, 20);
+  line-height: 1.6em;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: #f9c23f;
+  font-size: 38px;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 20px;
+  Font-weight: normal;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+a {
+  color: #f9c23f;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+i {
+  font-size: 60px;
+}
+
+#movies td {
+  padding: 10px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 3px;
+  padding: 25px;
+  margin: 30px;
+}
+
+.shadow {
+  box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+}
+
+/*img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle; Supprime un espace en dessous de l'image? Peut être uniquement pour les background image
+}*/
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+
+.list-inline {
+  padding: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.img-medium {
+  width: 180px;
+}
+
+.table-elem {
+  padding: 0px 20px;
+  min-width: 350px;
+}
+
+#btn-youtube {
+  font-size: 120px;
+  margin-bottom: 20px;
+}
+
+.video-large {
+  width: 600px;
+  height: 440px;
+  margin: 0 auto;
+}
