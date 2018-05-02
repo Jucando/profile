@@ -44,7 +44,6 @@ a:hover {
 }
 
 i {
-  color: #f9c23f;
   font-size: 60px;
 }
 
@@ -118,6 +117,7 @@ i {
 }
 
 #btn-big {
+  color: #f9c23f;
   font-size: 120px;
   margin-bottom: 20px;
 }
